@@ -1,68 +1,98 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
-  baseUrl: 'https://sneas.github.io/cv-project',
+  name: 'Samira Gadri',
+  title: 'UBC Student',
+  baseUrl: 'https://samiragadri.github.io/cv-project',
   facts: {
-    'Residence': 'London',
-    'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
-                  <span class="screen">wiki</span>
+    'Residence': 'Vancouver, Canada',
+    'Email': '<a href="mailto:samira.gadri@alumni.ubc.ca">samira.gadri@alumni.ubc.ca</a>',
+    'GitHub': `<a href="https://github.com/samiragadri">
+                  <span class="print">https://github.com/samiragadri</span>
+                  <span class="screen">GitHub</span>
                 </a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
+    'LinkedIn': `<a href="https://www.linkedin.com/in/samiragadri/">
+                  <span class="print">https://www.linkedin.com/in/samiragadri/</span>
+                  <span class="screen">LinkedIn</span>
+                </a>`                
   },
   skills: [
-    ['Comedy', '++++'],
-    ['Love', '++++'],
-    ['Theater', '++++'],
-    ['Tragedy', '++++'],
-    ['Poetry', '++++'],
-    ['Erotic', '+++'],
-    ['Sonnets', '++++'],
-    ['Plays', '++++'],
-    ['Writing', '++++'],
-    ['Directing', '+++'],
-    ['Literature', '++++'],
-    ['Influence', '++++'],
+    
+    ['JavaScript', '++++'],
+    ['Java', '++++'],
+    ['HTML/CSS', '++++'],
+    ['C', '+++'],
+    ['C++', '+++'],
+    ['PHP', '++++'],
+    ['SQL', '+++'],
+    ['jQuery', '++++'],
+    ['Git,GitHub', '++++'],
+    ['REST API', '++++'],
+    ['NodeJS', '+++']
+
   ],
   plays: [
     {
-      title: 'Hamlet',
-      written: 'Likely early 17th century',
-      badges: ['tragedy', 'philosophy', 'death'],
+      title: 'Software Engineer Intern',
+      written: 'LoginRadius (Jan - Aug 2019)',
+      badges: ['JavaScript', 'NodeJS', 'REST API', 'jQuery', 'HTML/CSS'],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
+Develop client-side integrations using JavaScript. Integrate with 3rd party applications by connecting multiple REST APIs using NodeJS. Build API website with jQuery, PHP, and JavaScript. Test and maintain LoginRadius API library.
+
 `
     },
     {
-      title: 'Twelfth Night',
-      written: '1600 – 1601',
-      badges: ['comedy', 'love'],
+      title: 'Program Lead',
+      written: 'Canada Learning Code (July – Aug 2018)',
+      badges: ['Webmaking', 'Gamemaking', 'Digital Design', 'Entrepreneurship'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
+Designed modules to follow core curriculum (game-design, web and digital design and entrepreneurship). 
+Responsible for the flow of the experience, being the main host, daily/weekly agendas and logistics of camp. 
+Regularly prepared and delivered presentations, conducted team huddles, resolved issues quickly and professionally, and supervised groups of up to 30 learners.
+
+`
+    }
+  ],
+    projects: [
+    {
+      title: 'Database Management System',
+      written: 'github.com/samiragadri/ski-resort-dbms',
+      badges: ['SQL', 'PHP', 'SQL*Plus', 'Oracle', 'HTML/CSS'],
+      contents: `
+Built a full database application from scratch for staff and customers of a ski resort hotel. 
+Developed in PHP to connect Oracle database to frontend. 
+Wrote SQL data manipulation queries (insert, delete, update, joins, aggregation, view) using Oracle’s SQL*Plus.  
+
 `
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      written: '1595–1596, with a possible early draft written in 1591',
-      badges: ['tragedy', 'death', 'love'],
+      title: 'Mobile Transit Application ',
+      written: 'github.com/samiragadri/ski-resort-dbms',
+      badges: ['Java', 'API', 'JSON', 'XML'],
+
       contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
+Developed a real-time transit trip planner application for the city of Vancouver. 
+Made calls to Translink API to get data on bus service operations including stops, bus times, and routes. 
+Wrote Java classes to implement UI functionality
+
 `
     }
   ],
   experience: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
+      header: 'Coach',
+      written: 'Balloholics Basketball (Sept 2016 - June 2018)',
       contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
+Planned and conducted training sessions for classes of size 12-16 in grades 2-7.
+Increased the number of girls in the program from 2 to a full class of 16.
+
 `
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
+      header: 'Sales Specialist',
+      written: 'Victoria\'s Secret (Sept 2013 - June 2015)',
       contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. He dedicated them to Henry Wriothesley, Earl of Southampton.
+Cosistently exceeded $600\/h sales quota. Trained new associates. 
+Promoted from a sales support associate to a sales associate to a sales specialist. 'Angel of the Month' twice.
+
 `
     }
   ]
