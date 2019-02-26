@@ -21,12 +21,13 @@ module.exports = {
     ['HTML/CSS', '++++'],
     ['C', '+++'],
     ['C++', '+++'],
-    ['PHP', '++++'],
+    ['PHP', '+++'],
     ['SQL', '+++'],
     ['jQuery', '++++'],
     ['Git,GitHub', '++++'],
     ['REST API', '++++'],
-    ['NodeJS', '+++']
+    ['NodeJS', '+++'],
+    ['BootStrap', '+++']
 
   ],
   plays: [
@@ -35,7 +36,9 @@ module.exports = {
       written: 'LoginRadius (Jan - Aug 2019)',
       badges: ['JavaScript', 'NodeJS', 'REST API', 'jQuery', 'HTML/CSS'],
       contents: `
-Develop client-side integrations using JavaScript. Integrate with 3rd party applications by connecting multiple REST APIs using NodeJS. Build API website with jQuery, PHP, and JavaScript. Test and maintain LoginRadius API library.
+Develop client-side integrations using JavaScript.
+Integrate with 3rd party applications by connecting multiple REST APIs using Node.js. 
+Build API website with JavaScript, jQuery, PHP, and Bootstrap. 
 
 `
     },
@@ -43,18 +46,15 @@ Develop client-side integrations using JavaScript. Integrate with 3rd party appl
       title: 'Program Lead',
       written: 'Canada Learning Code (July – Aug 2018)',
       badges: ['Webmaking', 'Gamemaking', 'Digital Design', 'Entrepreneurship'],
-      contents: `
-Designed modules to follow core curriculum (game-design, web and digital design and entrepreneurship). 
-Responsible for the flow of the experience, being the main host, daily/weekly agendas and logistics of camp. 
-Regularly prepared and delivered presentations, conducted team huddles, resolved issues quickly and professionally, and supervised groups of up to 30 learners.
-
+      contents: `Designed modules to follow core curriculum on the topics of game-design, web and digital design and entrepreneurship.
+      Delivered instruction and provided mentorship to kids ranging from ages 9-12. Prepared and delivered presentations, conducted team huddles, and supervised groups of up to 30 learners and 6 mentors
 `
     }
   ],
     projects: [
     {
       title: 'Database Management System',
-      written: 'github.com/samiragadri/ski-resort-dbms',
+      written: 'https://github.com/samiragadri/ski-resort-dbms',
       badges: ['SQL', 'PHP', 'SQL*Plus', 'Oracle', 'HTML/CSS'],
       contents: `
 Built a full database application from scratch for staff and customers of a ski resort hotel. 
@@ -65,7 +65,7 @@ Wrote SQL data manipulation queries (insert, delete, update, joins, aggregation,
     },
     {
       title: 'Mobile Transit Application ',
-      written: 'github.com/samiragadri/ski-resort-dbms',
+      written: 'https://github.com/samiragadri/ski-resort-dbms',
       badges: ['Java', 'API', 'JSON', 'XML'],
 
       contents: `
@@ -73,6 +73,16 @@ Developed a real-time transit trip planner application for the city of Vancouver
 Made calls to Translink API to get data on bus service operations including stops, bus times, and routes. 
 Wrote Java classes to implement UI functionality
 
+`
+    },
+    {
+      title: 'Custom Blog Website',
+      written: 'https://samira-gadri.herokuapp.com',
+      badges: ['NodeJS', 'React', 'ReactRouter', 'JSX'],
+
+      contents: `
+Developed a One Page Application using NodeJS, React, ReactRouter and JSX.
+Hosted on Github and Deployed on Heroku.
 `
     }
   ],
