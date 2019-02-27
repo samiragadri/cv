@@ -12,7 +12,12 @@ module.exports = {
     'LinkedIn': `<a href="https://www.linkedin.com/in/samiragadri/">
                   <span class="print">https://www.linkedin.com/in/samiragadri/</span>
                   <span class="screen">LinkedIn</span>
-                </a>`                
+                </a>`,
+    'Website': `<a href="https://samira-gadri.herokuapp.com">
+                <span class="print">https://samira-gadri.herokuapp.com</span>
+                <span class="screen">Website</span>
+              </a>`,
+                  
   },
   skills: [
     
