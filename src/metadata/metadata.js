@@ -42,8 +42,8 @@ module.exports = {
       badges: ['JavaScript', 'NodeJS', 'REST API', 'jQuery', 'HTML/CSS'],
       contents: `
 Develop client-side integrations using JavaScript.
-Integrate with 3rd party applications by connecting multiple REST APIs using Node.js. 
-Build API website with JavaScript, jQuery, PHP, and Bootstrap. 
+Integrate with 3rd party applications by connecting multiple REST APIs using JavaScript. 
+Develop a brand new site for making API calls to LoginRadius using JavaScript, jQuery, CSS and PHP and various libraries and plugins.
 
 `
     },
@@ -51,8 +51,8 @@ Build API website with JavaScript, jQuery, PHP, and Bootstrap.
       title: 'Program Lead',
       written: 'Canada Learning Code (July – Aug 2018)',
       badges: ['Webmaking', 'Gamemaking', 'Digital Design', 'Entrepreneurship'],
-      contents: `Designed modules to follow core curriculum on the topics of game-design, web and digital design and entrepreneurship.
-      Delivered instruction and provided mentorship to kids ranging from ages 9-12. Prepared and delivered presentations, conducted team huddles, and supervised groups of up to 30 learners and 6 mentors
+      contents: `Designed modules on the topics of game-design, web and digital design and entrepreneurship.
+      Delivered instruction and provided mentorship to kids ranging from ages 9-12. Delivered presentations, conducted team huddles, and supervised groups of up to 30 learners and 6 mentors
 `
     }
   ],
